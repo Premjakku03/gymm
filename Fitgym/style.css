@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+
+}
+
+header {
+    background: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero {
+    background: url('./images/wp2333032.webp') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #f7f7f2;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.btn {
+    background: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  background0.3s ease;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    background: #ff4757;
+}
+
+section {
+    padding: 0px;
+    text-align: center;
+    margin: 0%;
+}
+
+#services h2, #about h2, #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#services .service-cards, #about .about-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    color: #666;
+}
+
+.about-content img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+.container{
+    display: flex;
+    float: left;
+    padding-top: 20px;
+    margin: auto;
+
+}
+.container img{
+    float: left;
+    margin-right: 20px;
+}
+h1{
+    animation: bounce 2s infinite;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+h1:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+img {
+    opacity: 0.5; 
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+.head{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding: 35px;
+    margin: 20px;
+
+}
+.container {
+    background-color: #000000;
+    content: normal;
+     width: 218vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+  
+}
+
+.profile-card {
+    background-color: #000000;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile-card img {
+    width: 100%;
+    height: 50%;
+}
+
+.profile-card h3 {
+    margin: 20px;
+    font-size: 24px;
+}
+
+.profile-card p {
+    margin: 0 20px 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.profile-card .btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.profile-card .btn:hover {
+    background-color: #000000;
+}
+.footer-logo{
+    width: 100px;  /* Set width to 80px */
+    height: 200px;  /* Maintain aspect ratio */
+    background-color: #000000;
+    
+    
+}
+.social-icons a img {
+    width: 30px;   /* Set the width of the logos */
+    height: auto;  /* Maintain aspect ratio */
+    margin: 0 10px; /* Space between logos */
+    transition: transform 0.3s ease;
+    
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);  /* Slightly increase size on hover */
+}
+.social-icons {
+    display: flex;      /* Enables flexbox layout */
+    justify-content: center;  /* Centers the icons horizontally */
+    align-items: center; /* Aligns the icons vertically */
+    gap: 10px;    
+    align-items: center;      /* Adds space between the icons */
+}
+.footer-rights {
+    text-align: center;  /* Center align the content */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: middle;
+}
+.contact-us {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+#about{
+    background-color: #fffdfd;
+    padding: 10px;
+
+
+}
+.about{
+ color: black;
+ text-align: center;
+}
